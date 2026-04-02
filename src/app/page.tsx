@@ -34,7 +34,7 @@ export default function HomePage() {
                 />
               </div>
               <p className="text-[0.7rem] tracking-[0.06em] text-mutedTone">
-                John A Andrews, Former Chief underwriting Officer, International at Hadron Insurance
+                John A Andrews, Former International Chief Underwriting Officer at Hadron Insurance
               </p>
             </div>
 
