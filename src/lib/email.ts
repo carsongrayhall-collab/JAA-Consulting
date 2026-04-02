@@ -23,11 +23,12 @@ export async function sendContactEmail(payload: {
   metadata: string;
 }) {
   const resend = getResend();
-  const from = process.env.CONTACT_FROM_EMAIL ?? "J A Andrews <website@jaa.ltd>";
+  const from = process.env.CONTACT_FROM_EMAIL ?? "Carson Hall <jaa-development@tryresumeflow.com>";
+  const to = process.env.CONTACT_TO_EMAIL ?? "carson.gray.hall@gmail.com";
 
   return resend.emails.send({
     from,
-    to: ["john@jaa.ltd"],
+    to: [to],
     replyTo: payload.email,
     subject: `New J A Andrews enquiry from ${payload.firstName} ${payload.lastName}`,
     text: [
