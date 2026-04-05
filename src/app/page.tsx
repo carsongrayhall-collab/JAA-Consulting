@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Header } from "@/components/Header";
 import { SectionTitle } from "@/components/SectionTitle";
 import { ContentSlider } from "@/components/ContentSlider";
@@ -76,6 +77,26 @@ export default function HomePage() {
         </section>
 
         <div className="space-y-12 pb-8">
+          <section className="section-card rounded-[32px] px-6 py-8 md:px-8">
+            <div className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+              <div className="space-y-3">
+                <p className="font-body text-[0.72rem] uppercase tracking-[0.18em] text-mutedTone">New product blueprint</p>
+                <SectionTitle title="AI-Brokered Motorcycle Deal Workflow" align="left" />
+                <p className="max-w-[54ch] font-body text-[0.98rem] leading-7 text-text">
+                  Explore a structured product spec for a compliant, human-in-the-loop broker platform handling
+                  sourcing, seller negotiation, buyer conversion, transport coordination, and auditability.
+                </p>
+              </div>
+              <div className="flex justify-start lg:justify-end">
+                <Link
+                  href="/products/ai-brokered-motorcycle-deal-orchestration"
+                  className="rounded-full border border-burgundy bg-burgundy px-5 py-3 font-body text-sm text-white transition-opacity hover:opacity-90"
+                >
+                  Open SPEC-1
+                </Link>
+              </div>
+            </div>
+          </section>
           <PartnerLogoStrip logos={partnerLogos} />
           <PortfolioCalculator />
           <ContactForm />

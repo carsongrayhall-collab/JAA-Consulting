@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export function Header() {
   return (
@@ -17,6 +18,12 @@ export function Header() {
         <a href="#solutions" className="transition-opacity hover:opacity-70 focus-visible:underline">
           Solutions
         </a>
+        <Link
+          href="/products/ai-brokered-motorcycle-deal-orchestration"
+          className="transition-opacity hover:opacity-70 focus-visible:underline"
+        >
+          Spec
+        </Link>
         <a href="#contact" className="transition-opacity hover:opacity-70 focus-visible:underline">
           Contact
         </a>
