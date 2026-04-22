@@ -3,7 +3,6 @@ import { Header } from "@/components/Header";
 import { SectionTitle } from "@/components/SectionTitle";
 import { ContentSlider } from "@/components/ContentSlider";
 import { PartnerLogoStrip } from "@/components/PartnerLogoStrip";
-import { PortfolioCalculator } from "@/components/PortfolioCalculator";
 import { ContactForm } from "@/components/ContactForm";
 import { Footer } from "@/components/Footer";
 import {
@@ -34,7 +33,7 @@ export default function HomePage() {
                 />
               </div>
               <p className="text-[0.7rem] tracking-[0.06em] text-mutedTone">
-                John A Andrews, Former International Chief Underwriting Officer at Hadron Insurance
+                John A Andrews, Former Chief underwriting Officer, International at Hadron Insurance
               </p>
             </div>
 
@@ -77,7 +76,6 @@ export default function HomePage() {
 
         <div className="space-y-12 pb-8">
           <PartnerLogoStrip logos={partnerLogos} />
-          <PortfolioCalculator />
           <ContactForm />
         </div>
       </div>
