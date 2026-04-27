@@ -12,7 +12,13 @@ export function Header() {
           className="object-contain object-left"
           priority
         />
-        <a href="#contact" className="transition-opacity hover:opacity-70 focus-visible:underline">
+      </a>
+
+      <nav>
+        <a
+          href="#contact"
+          className="transition-opacity hover:opacity-70 focus-visible:underline"
+        >
           Contact
         </a>
       </nav>
