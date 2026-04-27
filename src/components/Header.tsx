@@ -13,12 +13,11 @@ export function Header() {
           priority
         />
       </a>
-
-      <nav>
-        <a
-          href="#contact"
-          className="transition-opacity hover:opacity-70 focus-visible:underline"
-        >
+      <nav aria-label="Primary" className="flex gap-6 pt-2 font-serif text-sm tracking-editorial text-burgundy">
+        <a href="#solutions" className="transition-opacity hover:opacity-70 focus-visible:underline">
+          
+        </a>
+        <a href="#contact" className="transition-opacity hover:opacity-70 focus-visible:underline">
           Contact
         </a>
       </nav>
