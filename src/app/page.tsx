@@ -3,7 +3,6 @@ import { Header } from "@/components/Header";
 import { SectionTitle } from "@/components/SectionTitle";
 import { ContentSlider } from "@/components/ContentSlider";
 import { PartnerLogoStrip } from "@/components/PartnerLogoStrip";
-import { ContactForm } from "@/components/ContactForm";
 import { Footer } from "@/components/Footer";
 import {
   heroQuote,
@@ -76,7 +75,6 @@ export default function HomePage() {
 
         <div className="space-y-12 pb-8">
           <PartnerLogoStrip logos={partnerLogos} />
-          <ContactForm />
         </div>
       </div>
       <Footer />
